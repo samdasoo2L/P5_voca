@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 236, 255);
+}
+.title {
+  font-size: 30px;
+  margin: 50px;
+}
+.word-input {
+  height: 40px;
+  width: 20vw;
+  border: none;
+  background-color: rgb(184, 108, 255);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.mean-input {
+  height: 40px;
+  width: 20vw;
+  border: none;
+  background-color: rgb(184, 108, 255);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.word-input::placeholder,
+.mean-input::placeholder {
+  color: white;
+  text-decoration-line: underline;
+}
+.make-button {
+  background-color: blueviolet;
+  border: none;
+  height: 35px;
+  color: white;
+  border-radius: 2px;
+}
+
+.list-title-content {
+  margin: 50px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.list-title {
+  font-size: 25px;
+}
+.hidden-time {
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -35px;
+}
+
+.list-contents {
+  width: 65vw;
+  background-color: white;
+  padding: 1px;
+  min-width: 400px;
+}
+.list-content {
+  display: flex;
+}
+.voca-word {
+  width: 30vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  background-color: rgb(242, 229, 255);
+  min-width: 180px;
+}
+.voca-mean {
+  width: 30vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  background-color: rgb(242, 229, 255);
+  min-width: 180px;
+}
+.voca-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  width: auto;
+  background-color: rgb(242, 229, 255);
+  min-width: 25px;
+  cursor: pointer;
+}
+.seper {
+  width: 65vw;
+  min-width: 400px;
+  height: 1px;
+  margin: 2px 0px;
+  background-color: rgb(206, 154, 255);
+}
+
+.voca-mean-hidden {
+  color: rgb(242, 229, 255);
+}
